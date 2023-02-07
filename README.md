@@ -98,6 +98,32 @@ The service is then restarted and verified as active:<br/>
 <br />
 <br />
 
+<h2>Connect to the FTP Server:</h2>
+The windows machine CMD is opened:<br/>
+<img src="https://imagizer.imageshack.com/img922/811/ggcmcX.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+A Hello World file is created using the name ftpTransfer.txt:<br/>
+<img src="https://imagizer.imageshack.com/img923/4028/KMYbSQ.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+The dir command is used to verify the files creation:<br/>
+<img src="https://imagizer.imageshack.com/img923/6329/wl9qRe.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+The ftp command is used to open the connection to the Debian FTP server. The password is entered:<br/>
+<img src="https://imagizer.imageshack.com/img924/2777/aHFkSb.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+The put command i used to upload ftpTransfer.txt to the FTP server:<br/>
+<img src="https://imagizer.imageshack.com/img922/5328/o4H3ZX.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+On the Debian machine, the file exists. This verifies the FTP servers functionality:<br/>
+<img src="https://imagizer.imageshack.com/img924/5043/g5LKyT.png" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
 <!--
  ```diff
 - text in red
